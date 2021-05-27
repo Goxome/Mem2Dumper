@@ -36,10 +36,13 @@ Dump Memory Segment From Process Memory and Rebuild ELF So Binaries
 
 	 
 
-	 Mem2Dumper <==> Made By Goxome
+	 Memory2Dumper <==> Made By Goxome
 
-	 Usage: ./Mem2Dumper -p <packageName> <option(s)>
+	 
+           Usage: ./Mem2Dumper -p <packageName> <option(s)
+           Usage Example: >> ./Mem2Dumper -p com.goxome.demo -l -n libGoxome.so -o /sdcard <<
 
+  
 	 Dump Memory Segment From Process Memory and Rebuild So(Elf) Libraries
 
 	 -l for Library Mode, -m for Manual Dumping Mode, By Default Auto Dumping Mode
